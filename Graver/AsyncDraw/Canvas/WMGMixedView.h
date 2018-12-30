@@ -44,7 +44,7 @@ typedef NS_ENUM(NSUInteger, WMGTextHorizontalAlignment) {
 @property (nonatomic, assign) WMGTextVerticalAlignment verticalAlignment;
 
 // 行数，default is 0
-@property (nonatomic, assign) NSUInteger numerOfLines;
+@property (nonatomic, assign) NSUInteger numberOfLines;
 
 // 待绘制内容
 @property (nonatomic, strong) WMMutableAttributedItem *attributedItem;

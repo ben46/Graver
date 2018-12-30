@@ -104,10 +104,10 @@ NSString * const WMGMixedViewTextVerticalAlignmentKey = @"waimai-graver-mixedvie
     }
 }
 
-- (void)setNumerOfLines:(NSUInteger)numerOfLines
+- (void)setNumberOfLines:(NSUInteger)numberOfLines
 {
-    if (_textDrawer.textLayout.maximumNumberOfLines != numerOfLines) {
-        _textDrawer.textLayout.maximumNumberOfLines = numerOfLines;
+    if (_textDrawer.textLayout.maximumNumberOfLines != numberOfLines) {
+        _textDrawer.textLayout.maximumNumberOfLines = numberOfLines;
         _pendingAttachmentUpdates = YES;
         [self setNeedsDisplay];
     }
